@@ -9,7 +9,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
 
 # Load the dataset
-df = pd.read_csv(r"C:\Users\siddh\OneDrive\Desktop\codsoft intern\Titanic\Titanic-Dataset.csv")
+df = pd.read_csv(r"Titanic-Dataset.csv")
 
 # Preprocess the data
 def preprocess_data(df):
